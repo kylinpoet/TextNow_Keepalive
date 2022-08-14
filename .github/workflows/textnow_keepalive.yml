@@ -1,6 +1,7 @@
 name: 'TextNow Protect Number'
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   schedule:
